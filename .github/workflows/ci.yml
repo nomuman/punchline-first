@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate examples and anchors
+        run: python -m unittest discover -s tests -v
+      - name: Skill frontmatter sanity
+        run: |
+          python - << 'EOF'
+          s = open('skills/punchline-first/SKILL.md', encoding='utf-8').read()
+          assert s.startswith('---'), 'SKILL.md must start with frontmatter'
+          assert 'name: punchline-first' in s.split('---')[1]
+          assert 'description:' in s.split('---')[1]
+          print('frontmatter OK')
+          EOF

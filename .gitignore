@@ -1,0 +1,4 @@
+__pycache__/
+.venv/
+*.scores.json.tmp
+.DS_Store
