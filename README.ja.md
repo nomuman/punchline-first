@@ -69,7 +69,7 @@ uv run --with fastembed --with numpy \
   examples/reactions-good.json --lang ja
 ```
 
-アンカーは日本語・英語の2種つき（`anchors/approval_ja.json`、`approval_en.json`）。
+アンカーは日本語・英語つきで、資料の役割に合わせた2系統あります。決裁資料向けの `approval_*`（既定）と、説明資料向けの `understanding_*`（`--anchors understanding`）です。
 
 ## 設計メモ — 人気スキルから借りたこと
 

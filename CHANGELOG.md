@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.2.0 — 2026-11-22
+
+- Understanding anchors (Japanese + English) for explanatory documents:
+  `--anchors understanding`. Validated for discrimination on the repo
+  examples (bad draft 2.30 vs punchline-first draft 3.77).
+- Field note from a live trial: on an explanatory document whose
+  readers understood the point (recall 0.84) but kept one substantive
+  objection (no measured data), conviction plateaued at ~2.8 under
+  both anchor sets — the loop correctly refused to reward polishing
+  over missing evidence.
+
+
 ## 0.1.0 — 2026-11-22
 
 - Initial release: the punchline-first workflow (punchline gate, bullets

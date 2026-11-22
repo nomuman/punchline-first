@@ -43,6 +43,9 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("input")
     ap.add_argument("--lang", default="ja", choices=["ja", "en"])
+    ap.add_argument("--anchors", default="approval",
+                    choices=["approval", "understanding"],
+                    help="approval: decision documents; understanding: explanatory documents")
     ap.add_argument("--pass-conviction", type=float, default=3.8)
     ap.add_argument("--pass-recall", type=float, default=0.70)
     ap.add_argument("--pass-min-recall", type=float, default=0.55)
@@ -50,7 +53,7 @@ def main() -> int:
 
     data = json.load(open(args.input, encoding="utf-8"))
     anchors = {int(k): v for k, v in json.load(
-        open(os.path.join(HERE, "..", "anchors", f"approval_{args.lang}.json"),
+        open(os.path.join(HERE, "..", "anchors", f"{args.anchors}_{args.lang}.json"),
              encoding="utf-8")).items()}
 
     model = TextEmbedding(model_name=MODEL)

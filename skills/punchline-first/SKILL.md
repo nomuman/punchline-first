@@ -98,7 +98,12 @@ the way SSR scores purchase intent:
 
    It reports, per reader: **recall** (cosine similarity between the
    takeaway and the punchline — did the point land?) and **conviction**
-   (an SSR score of the reaction against approval anchors).
+   (an SSR score of the reaction against anchors). Pick the anchors
+   that match what the document asks of its reader: `--anchors approval`
+   (default) for decision documents, `--anchors understanding` for
+   explanatory ones. For explanatory documents recall is the primary
+   gate; a conviction around 3 there means "understood, with open
+   questions" — read the reactions before grinding more rounds.
 4. Gates (defaults): mean conviction ≥ 3.8, mean recall ≥ 0.70, and
    min recall ≥ 0.55. If the verdict is REVISE, fix the **structure
    and bullets** (Steps 1–2), never just the wording, and re-run with

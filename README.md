@@ -93,8 +93,10 @@ uv run --with fastembed --with numpy \
   examples/reactions-good.json --lang ja
 ```
 
-Anchors ship in Japanese and English (`anchors/approval_ja.json`,
-`approval_en.json`).
+Anchors ship in Japanese and English, in two flavours matched to what
+the document asks of its reader: `approval_*` for decision documents
+(default) and `understanding_*` for explanatory ones
+(`--anchors understanding`).
 
 ## Design notes — what we borrowed from popular skills
 
