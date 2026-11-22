@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.3.0 — 2026-11-22
+
+- Design gate for slides and visuals: declare the design from the
+  subject (its world, one committed direction, palette + typefaces
+  with roles) before building; a blocklist of the AI-default look
+  (cream + terracotta, purple gradients, eyebrow labels, identical
+  rounded cards, side stripes, default fonts); and a swap-the-name
+  delivery check. Borrowed from frontend-slides, hallmark, and
+  Anthropic's frontend-design skill.
+- Prompted by a live failure: this skill's own demo deck shipped with
+  four of the blocklisted tells at once.
+
+
 ## 0.2.0 — 2026-11-22
 
 - Understanding anchors (Japanese + English) for explanatory documents:

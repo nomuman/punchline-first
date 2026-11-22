@@ -115,6 +115,49 @@ on a high-stakes document — the same caveat SSR carries. Scores
 compress at both ends, so treat the gates as relative: a document that
 cannot pass them has a structural problem, whatever its prose quality.
 
+## Design gate — no AI-default look (slides and visuals)
+
+A document's design is also an argument. The moment a deck *looks*
+AI-generated, the reader discounts the content — the visual equivalent
+of slop. The model's defaults are a statistical average, not a design
+decision, and they are recognisable on sight.
+
+Before building any slide or visual, declare three things in writing:
+(1) the subject's own world (its brand, product, physical context),
+(2) one committed design direction in a single line, and (3) a palette
+and typefaces with roles, each traceable to (1). If a choice cannot be
+traced to the subject, it is a default — replace it.
+
+**The AI-default look — never ship these unless the brief demands them:**
+
+- Cream / beige background with a terracotta-orange accent (the
+  current house default of AI tools, the clay family around #D97757)
+- Purple or blue gradients on white
+- A small-caps "eyebrow" label above every heading
+- Rows of identical rounded cards with soft shadows; cards inside cards
+- A coloured accent stripe down the side of every slide or card
+- Inter / Roboto / system fonts as the only typeface; everything
+  centred; 01/02/03 numbering on content that is not a sequence;
+  emoji used as icons
+
+**Instead:**
+
+- Typography with a point of view: a display face chosen for the
+  subject, paired with a quiet body face
+- One dominant colour with a sharp accent, not an evenly timid palette
+- At least one layout that breaks the grid — scale, overlap, asymmetry,
+  or deliberate density
+- Texture and detail taken from the subject itself (for a notebook
+  product: ruled lines, date stamps, the physical page), never generic
+  "warm paper" atmosphere
+
+**Delivery check:** if the subject's name were swapped for another
+product's, would the design work unchanged? If yes, it is a template.
+Return to the design decision, not to decoration.
+
+(The user's or brand's explicit brief always wins over this list —
+including when it asks for one of the looks above.)
+
 ## Punchline patterns (Japanese business documents)
 
 - Decision: 「Xを承認いただきたい。理由はYで、見送るとZが起きる」

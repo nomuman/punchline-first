@@ -111,6 +111,14 @@ the document asks of its reader: `approval_*` for decision documents
 - **Process before production** — from `superpowers`
   (brainstorming / writing-plans): settle the design before generating
   the artefact.
+- **An anti-AI-default design gate** — from `frontend-slides`
+  (32.7K stars; curated styles against generic AI aesthetics),
+  `hallmark` (~46.5K stars; names the cream background + eyebrow
+  label + card look as the tell), and Anthropic's `frontend-design`
+  (commit to the subject's own direction; even flags the terracotta
+  clay accent as a tell). Our skill applies the same thinking to
+  slides: declare the design from the subject, blocklist the
+  defaults, and run a swap-the-name delivery check.
 - **The manager's triage** — the 10-fix / can't-explain / wrong-direction
   rules circulating among managers reviewing AI documents, turned into
   self-checks for the author.
