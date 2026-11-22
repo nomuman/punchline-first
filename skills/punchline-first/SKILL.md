@@ -1,6 +1,6 @@
 ---
 name: punchline-first
-description: Write documents that cannot become AI slop. Use whenever drafting or revising a document, proposal, report, spec, slide outline, or business summary for a human reader — especially when the user asks for a document without first stating its point. Enforces one workflow: fix the punchline before any drafting, build the body only to support it, demote every detail to a supplement, pass three anti-slop gates, and finish with a scored reader loop (SSR) that must clear its thresholds before delivery.
+description: "Write documents that cannot become AI slop. Use whenever drafting or revising a document, proposal, report, spec, slide outline, or business summary for a human reader — especially when the user asks for a document without first stating its point. Enforces one workflow: fix the punchline before any drafting, build the body only to support it, demote every detail to a supplement, pass three anti-slop gates, and finish with a scored reader loop (SSR) that must clear its thresholds before delivery."
 ---
 
 # Punchline-First Writing
