@@ -158,6 +158,41 @@ Return to the design decision, not to decoration.
 (The user's or brand's explicit brief always wins over this list —
 including when it asks for one of the looks above.)
 
+## Deck content checks (slides)
+
+The design gate covers how a deck looks; these four checks cover
+what its pages say. Run them on any slide deck before delivery —
+each one names a way generated decks quietly contradict themselves.
+
+1. **Title–chart agreement.** If the title states a number or a
+   total, the chart must draw it — a breakdown under a "total"
+   title makes the reader do the addition (draw the stacked bar
+   and label the total). Title and chart telling different stories
+   is the single most common slide defect.
+2. **Say it once.** A big number, its heading, and its caption
+   must not restate the same claim three times. State the claim —
+   number included — in one sentence; the caption then carries
+   only what the sentence doesn't: source, scope, caveat.
+3. **Reuse the deck's framework.** A list or table inherits the
+   grouping the deck already established (if page 3 framed the
+   plan as three pillars, page 6's action list is grouped by those
+   pillars — not dumped as a raw table with a new taxonomy).
+   Dates and schedules are drawn as a timeline, not repeated as a
+   text column on every page.
+4. **Same level, same form.** Items at the same level share one
+   grammatical form — all verb endings, or all noun phrases.
+   Mixed endings （〜の導入 / 〜を策定する / 〜プログラム) read as
+   unedited even when every item is individually fine.
+
+The visual side of deck-level discipline — background consistency,
+colour roles, accent discipline, page pacing — lives in the
+companion skill **design-urawaza** (Part 3). The split is
+deliberate: this skill owns what pages say, that one owns how
+they look.
+
+(Checks distilled from @fujikururi, 「スライドの『AIっぽさ』図解」,
+2026 — https://x.com/fujikururi/status/2124647602448982268)
+
 ## Punchline patterns (Japanese business documents)
 
 - Decision: 「Xを承認いただきたい。理由はYで、見送るとZが起きる」

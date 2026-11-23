@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.0 — 2026-11-23
+
+- Deck content checks for slides: title–chart agreement, say it
+  once (no triple restatement), reuse the deck's framework, same
+  level same grammatical form. Distilled from @fujikururi's
+  「スライドの『AIっぽさ』図解」; the visual deck-level checks live
+  in the companion skill design-urawaza (Part 3, v0.2.0).
+
 ## 0.3.0 — 2026-11-22
 
 - Design gate for slides and visuals: declare the design from the

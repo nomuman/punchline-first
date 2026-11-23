@@ -122,6 +122,12 @@ the document asks of its reader: `approval_*` for decision documents
 - **The manager's triage** — the 10-fix / can't-explain / wrong-direction
   rules circulating among managers reviewing AI documents, turned into
   self-checks for the author.
+- **Deck content checks** (0.4.0) — title–chart agreement, say it
+  once, reuse the deck's framework, same level same form — from
+  @fujikururi's 「スライドの『AIっぽさ』図解」
+  (https://x.com/fujikururi/status/2124647602448982268). The visual
+  deck-level checks from the same source live in the companion
+  skill design-urawaza.
 
 ## Repository layout
 
